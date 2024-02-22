@@ -14,3 +14,5 @@ python manage.py grpcrunserver --dev
 
 
 ### **Currently, gRPC supports only to Django version 4.0**
+
+python3.11 manage.py generateproto --model unit_purchase.models.UnitPurchase  --file unit_purchase.proto
